@@ -5,10 +5,4 @@
  let html = require('remark-html');
  let report = require('vfile-reporter');
  
- remark()
-  .use(guide)
-  .use(html)
-  .process('*emphasis* and _importance_', function (err, file) {
-    console.log(String(file));
-    console.error(report(err || file));
-  });
+var dammit = remark.create();
