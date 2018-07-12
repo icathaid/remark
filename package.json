@@ -1,0 +1,24 @@
+{
+  "name": "testremark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icathaid/remark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icathaid/remark/issues"
+  },
+  "homepage": "https://github.com/icathaid/remark#readme",
+  "dependencies": {
+    "remark": "^9.0.0",
+    "remark-html": "^7.0.0",
+    "vfile-reporter": "^5.0.0"
+  }
+}
